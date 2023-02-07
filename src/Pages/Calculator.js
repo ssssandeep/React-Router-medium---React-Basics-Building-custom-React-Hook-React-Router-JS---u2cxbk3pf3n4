@@ -23,7 +23,7 @@ export const Calculator = () =>{
     }
     return(
         <div>
-            Your calculation Result is <span className="calc-result">{getResult()}</span>
+            Your calculation Result is <span id="calc-result">{getResult()}</span>
         </div>
     )
 }
