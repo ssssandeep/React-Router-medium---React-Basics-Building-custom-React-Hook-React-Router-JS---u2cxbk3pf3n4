@@ -11,15 +11,15 @@ export const Calculator = () =>{
     console.log(num1, num2, op, x);
     const getResult = () =>{
         if(op=== '+'){
-            return num1+num2;
+            return (+num1)+(+num2);
         }else if(op==='-'){
             return num1-num2;
         }else if(op === '*'){
-            return num1*num2;
+            return (num1)*(num2);
         }else if(op === '/'){
-            return num1/num2;
+            return (num1)/(num2);
         }
-        return 1;
+        return (num1)%(num2);
     }
     return(
         <div>
